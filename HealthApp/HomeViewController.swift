@@ -21,7 +21,7 @@ class HomeViewController: UIViewController {
     @IBOutlet var ageDatePicker: UIDatePicker!
    
     var selectedMood = ""
-    
+    // change
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let resultVC = segue.destination as! ResultViewController
