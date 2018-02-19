@@ -1,5 +1,5 @@
 # Health App 
-*is an iOS app (for beginners) that receives health information from patients and displays result for doctor to see.
+*is an iOS app that receives health information from patients and displays result for doctor to see.
 
 
 ***
@@ -14,12 +14,7 @@ Table of contents
   * [Overview](#overview)
   * [`HomeViewController`](#homeviewcontroller)
   * [`ResultViewController`](#resultviewcontroller)
-* [Hints](#hints)
-  * [Saving Mood](#saving-mood)
-  * [Set image programatically](#set-image-programatically)
-  * [Working with `UISegmentedControl`](#working-with-uisegmentedcontrol)
-  * [Dismiss Keyboard](#dismiss-keyboard)
-  * [Formatting `Date`](#formatting-date)
+
 
 ## Before you begin
 
@@ -48,34 +43,3 @@ There will be two `ViewController`s: `HomeViewController` & `ResultViewControlle
 
 * `UILabels` that display information for the user's: mood, gender, full name, height, weight, and date of birth.
 * Add gray background color to some `UILabel`s appropriately.
-
-***
-
-## Hints
-
-### Saving Mood
-<img src='https://i.imgur.com/qiufNvP.png' title='Video Walkthrough' width='' alt='Video Walkthrough' />
-
-### Set image programatically
-<img src='http://i.imgur.com/NkWHpFi.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
-
-### Working with `UISegmentedControl`
-```swift
-if segmentedControl.selectedSegmentIndex == 0 {
-  // do something
-} else if segmentedControl.selectedSegmentIndex == 1 {
-  // do something else
-} else {
-  // do something else
-}
-```
-
-### Dismiss Keyboard
-<img src='https://i.imgur.com/nGd0HJ4.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
-
-### Formatting `Date`
-```swift
-let dateFormatter = DateFormatter()
-dateFormatter.dateFormat = "MM/dd/yyyy"
-let dateString = dateFormatter.string(from: ```DATE OBJECT GOES HERE```) // <---- THIS IS YOUR STRING
-```
