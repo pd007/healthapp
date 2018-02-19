@@ -1,5 +1,5 @@
 # Health App 
-*is an iOS app that receives health information from patients and displays result for doctor to see.
+An iOS app that receives health information from patients and displays result for doctor to see.
 
 
 ***
